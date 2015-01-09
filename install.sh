@@ -33,7 +33,7 @@ upgrade() {
 }
 
 installTools() {
-    apt-get install vlc unity-tweak-tool psensor compiz-plugins-extra compiz-fusion-plugins-extra zlib1g-dev liblzma-dev curl
+    apt-get install conky vlc unity-tweak-tool psensor compiz-plugins-extra compiz-fusion-plugins-extra zlib1g-dev liblzma-dev curl
 }
 
 installThemes() {
@@ -57,8 +57,19 @@ installDevTools() {
     chown -R $SUDO_USER:$SUDO_USER Development
 }
 
+installPS3PadSupport() {
+    apt-add-repository ppa:falk-t-j/qtsixa
+    upgrade
+    apt-get install sixad
+}
+
+installNesEmulator() {
+    apt-get install fceux
+}
 
 upgrade
 installTools
 installThemes
-installDevTools
+installNesEmulator
+installPS3PadSupport
+#installDevTools
