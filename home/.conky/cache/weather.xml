@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+		<rss version="2.0" xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+			<channel>
+		
+<title>Yahoo! Weather - Gossau, CH</title>
+<link>http://us.rd.yahoo.com/dailynews/rss/weather/Gossau__CH/*http://weather.yahoo.com/forecast/SZXX0054_c.html</link>
+<description>Yahoo! Weather for Gossau, CH</description>
+<language>en-us</language>
+<lastBuildDate>Sat, 10 Jan 2015 10:00 am CET</lastBuildDate>
+<ttl>60</ttl>
+<yweather:location city="Gossau" region="SG"   country="Switzerland"/>
+<yweather:units temperature="C" distance="km" pressure="mb" speed="km/h"/>
+<yweather:wind chill="13"   direction="130"   speed="14.48" />
+<yweather:atmosphere humidity="72"  visibility=""  pressure="948.19"  rising="2" />
+<yweather:astronomy sunrise="8:07 am"   sunset="4:52 pm"/>
+<image>
+<title>Yahoo! Weather</title>
+<width>142</width>
+<height>18</height>
+<link>http://weather.yahoo.com</link>
+<url>http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif</url>
+</image>
+<item>
+<title>Conditions for Gossau, CH at 10:00 am CET</title>
+<geo:lat>47.42</geo:lat>
+<geo:long>9.26</geo:long>
+<link>http://us.rd.yahoo.com/dailynews/rss/weather/Gossau__CH/*http://weather.yahoo.com/forecast/SZXX0054_c.html</link>
+<pubDate>Sat, 10 Jan 2015 10:00 am CET</pubDate>
+<yweather:condition  text="Unknown"  code="3200"  temp="13"  date="Sat, 10 Jan 2015 10:00 am CET" />
+<description><![CDATA[
+<img src="http://l.yimg.com/a/i/us/we/52/3200.gif"/><br />
+<b>Current Conditions:</b><br />
+Unknown, 13 C<BR />
+<BR /><b>Forecast:</b><BR />
+Sat - Partly Cloudy. High: 12 Low: 7<br />
+Sun - Rain/Snow. High: 7 Low: -1<br />
+Mon - Mostly Cloudy. High: 7 Low: 1<br />
+Tue - Sunny. High: 9 Low: 3<br />
+Wed - AM Showers. High: 5 Low: 0<br />
+<br />
+<a href="http://us.rd.yahoo.com/dailynews/rss/weather/Gossau__CH/*http://weather.yahoo.com/forecast/SZXX0054_c.html">Full Forecast at Yahoo! Weather</a><BR/><BR/>
+(provided by <a href="http://www.weather.com" >The Weather Channel</a>)<br/>
+]]></description>
+<yweather:forecast day="Sat" date="10 Jan 2015" low="7" high="12" text="Partly Cloudy" code="30" />
+<yweather:forecast day="Sun" date="11 Jan 2015" low="-1" high="7" text="Rain/Snow" code="5" />
+<yweather:forecast day="Mon" date="12 Jan 2015" low="1" high="7" text="Mostly Cloudy" code="28" />
+<yweather:forecast day="Tue" date="13 Jan 2015" low="3" high="9" text="Sunny" code="32" />
+<yweather:forecast day="Wed" date="14 Jan 2015" low="0" high="5" text="AM Showers" code="39" />
+<guid isPermaLink="false">SZXX0054_2015_01_14_7_00_CET</guid>
+</item>
+</channel>
+</rss>
+
+<!-- api6.weather.bf1.yahoo.com Sat Jan 10 01:38:52 PST 2015 -->
