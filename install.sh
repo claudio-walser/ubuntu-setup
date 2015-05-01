@@ -69,6 +69,7 @@ installNesEmulator() {
 
 installRocketRaidDriver () {
     add-apt-repository ppa:ostogvin/tjo-highpoint-rocketraid-dkms
+    upgrade
     apt-get install rr2210-dkms
 }
 
