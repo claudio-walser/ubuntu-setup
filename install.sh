@@ -77,4 +77,5 @@ installTools
 installThemes
 installNesEmulator
 installPS3PadSupport
+installRocketRaidDriver
 #installDevTools
