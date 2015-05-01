@@ -33,21 +33,21 @@ upgrade() {
 }
 
 installTools() {
-    apt-get install conky vlc unity-tweak-tool psensor compiz-plugins-extra compizconfig-settings-manager zlib1g-dev liblzma-dev curl
+    apt-get --yes install conky vlc unity-tweak-tool psensor compiz-plugins-extra compizconfig-settings-manager zlib1g-dev liblzma-dev curl
 }
 
 installThemes() {
-    add-apt-repository ppa:noobslab/themes
-    add-apt-repository ppa:numix/ppa
+    add-apt-repository --yes ppa:noobslab/themes
+    add-apt-repository --yes ppa:numix/ppa
     upgrade
 
-    apt-get install mediterranean-theme
-    apt-get install numix-gtk-theme numix-icon-theme
-    apt-get install numix-gtk-theme numix-icon-theme-circle    
+    apt-get --yes install mediterranean-theme
+    apt-get --yes install numix-gtk-theme numix-icon-theme
+    apt-get --yes install numix-gtk-theme numix-icon-theme-circle    
 }
 
 installDevTools() {
-    apt-get install build-essential git bokken nmap python-magic
+    apt-get --yes install build-essential git bokken nmap python-magic
     cd /home/$SUDO_USER
     mkdir -p Development/reverse-engineering
     cd Development/reverse-engineering
@@ -58,13 +58,13 @@ installDevTools() {
 }
 
 installPS3PadSupport() {
-    apt-add-repository ppa:falk-t-j/qtsixa
+    apt-add-repository --yes ppa:falk-t-j/qtsixa
     upgrade
-    apt-get install sixad
+    apt-get --yes install sixad
 }
 
 installNesEmulator() {
-    apt-get install fceux
+    apt-get --yes install fceux
 }
 
 upgrade
@@ -72,4 +72,4 @@ installTools
 installThemes
 installNesEmulator
 installPS3PadSupport
-#installDevTools
+installDevTools
