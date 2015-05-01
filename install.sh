@@ -67,6 +67,11 @@ installNesEmulator() {
     apt-get install fceux
 }
 
+installRocketRaidDriver () {
+    add-apt-repository ppa:ostogvin/tjo-highpoint-rocketraid-dkms
+    apt-get install rr2210-dkms
+}
+
 upgrade
 installTools
 installThemes
